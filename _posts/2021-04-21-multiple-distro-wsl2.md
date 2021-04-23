@@ -74,4 +74,5 @@ PS:\> wsl -d ubuntu-my-dist -u username bash
 ```
 
 ### 참고자료
-<https://godsman.tistory.com/entry/윈도우즈에-WSL-여러-개-설치하기>{:target="_blank"}
+
+- <https://godsman.tistory.com/entry/윈도우즈에-WSL-여러-개-설치하기>{:target="_blank"}

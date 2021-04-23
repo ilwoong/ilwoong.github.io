@@ -19,8 +19,16 @@ Settings > General > Use the WSL2 based engine 체크
 
 ### Docker WSL Integration 설정
 
-Settings > Resources > WSL Integration 에서 docker 실행할 배포판 설정
+Settings > Resources > WSL Integration 에서 docker를 실행할 배포판 설정합니다.
+
+### 사용자를 docker 그룹 추가
+
+docker 실행할때마다 나타나는 권한 문제를 해결하기 위해 사용자를 docker 그룹에 추가시킵니다.
+
+```bash
+$ sudo usermod -aG docker username
+```
 
 
 ### 참고자료
-<https://docs.docker.com/docker-for-windows/wsl/>{:target="_blank"}
+- <https://docs.docker.com/docker-for-windows/wsl/>{:target="_blank"}
