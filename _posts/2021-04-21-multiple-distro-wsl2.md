@@ -2,7 +2,7 @@
 layout: post
 title: WSL 배포판 여러 개 설치하기 
 tags: [Windows 10, WSL2]
-author: Ilwoong Jeong
+author: ilwoong
 ---
 
 WSL 위에서 동작하는 Ubuntu 배포판은 Windows Store에서 다운로드 받을 수 있습니다. 그러나 같은 버전의 배포판은 하나만 설치할 수 있는 제약사항이 있습니다. 용도를 달리해서 여러 배포판을 관리하고 싶을 때는 wsl 명령어를 사용해서 배포판을 설치해야 합니다.
