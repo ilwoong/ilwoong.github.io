@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WSL 배포판 여러 개 설치하기 
-tags: [Windows 10, WSL2]
+tags: [Windows 10, WSL]
 author: ilwoong
 ---
 

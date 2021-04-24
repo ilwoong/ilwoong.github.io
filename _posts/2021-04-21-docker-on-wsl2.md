@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WSL에서 Docker 구동하기
-tags: [WSL2, Docker]
+tags: [WSL, Docker]
 author: ilwoong
 ---
 
