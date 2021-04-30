@@ -53,12 +53,15 @@ version: '3'
 services:
   jekyll:
     container_name: jekyll
-    image: jekyll/jekyll    
+    image: jekyll/jekyll
     ports:
       - "4000:4000"
     command: jekyll serve
     volumes:
       - $PWD/jekyll:/srv/jekyll
+      - /etc/localtime:/etc/localtime:ro
+    environment:
+      TZ: "Asia/Seoul"
 ```
 
 ### Docker 컨테이너 실행하기
