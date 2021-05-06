@@ -41,7 +41,7 @@ $ docker run --init -d \
 
 위 명령어를 타이핑하기 귀찮기 때문에 docker-compose 를 이용하기 위해 다음과 같이 docker-compose.yml 파일을 생성합니다.
 
-```config
+```yml
 version: '3'
 services:
   homeassistant:

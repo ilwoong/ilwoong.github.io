@@ -21,7 +21,7 @@ $ docker run ...
 
 아래처럼 /etc/localtime을 읽기전용으로 마운트시키고, 환경변수에 TZ를 추가하면 됩니다.
 
-```config
+```yml
 services:
   myservice:
     ....
