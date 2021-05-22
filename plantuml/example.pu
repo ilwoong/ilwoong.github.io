@@ -1,0 +1,9 @@
+@startmindmap
+
+* Root Node
+** First Level Node
+** First Level Node
+*** Second Level Node
+**** Third Level Node
+
+@endmindmap
