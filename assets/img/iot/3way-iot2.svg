@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Microsoft Visio, SVG Export에서 생성되었습니다. 3로-연결.svg 페이지-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.63232in" height="1.53737in"
+		viewBox="0 0 405.527 110.691" xml:space="preserve" color-interpolation-filters="sRGB" class="st9">
+	<v:documentProperties v:langID="1042" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#000000}
+		.st2 {stroke:#000000;stroke-linecap:butt;stroke-width:1.47402}
+		.st3 {fill:#000000;font-family:맑은 고딕;font-size:0.833336em}
+		.st4 {stroke:#000000;stroke-linecap:butt;stroke-width:0.75}
+		.st5 {stroke:#000000;stroke-linecap:butt;stroke-width:0.850394}
+		.st6 {stroke:#ff0000;stroke-linecap:butt;stroke-width:0.75}
+		.st7 {fill:none;stroke:#000000;stroke-linecap:butt;stroke-width:1.5}
+		.st8 {stroke:#000000;stroke-linecap:butt;stroke-width:2.21102}
+		.st9 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="LampCount" v:prompt="" v:val="VT0(2):26"/>
+			<v:ud v:nameU="SPSTCount" v:prompt="" v:val="VT0(3):26"/>
+		</v:userDefs>
+		<title>페이지-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="전기" v:index="0"/>
+		<v:layer v:name="연결선" v:index="1"/>
+		<g id="shape90-1" v:mID="90" v:groupContext="shape" v:layerMember="0" transform="translate(12.9215,-47.0846)">
+			<title>AC 전원.90</title>
+			<v:custProps>
+				<v:cp v:nameU="Label" v:lbl="Label" v:prompt="" v:type="0" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1042" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="Label" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="0" v:cal="0" v:val="VT4(AC)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="AT" v:prompt="Action toggle" v:val="VT0(0):26"/>
+				<v:ud v:nameU="LimitHgt" v:val="VT0(0):26"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(AC current or voltage source.)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="Label" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="SolSH" v:prompt="" v:val="VT4({2EE3C7D2-E26E-4B72-9E9C-5170DDBF261A})"/>
+				<v:ud v:nameU="Label" v:prompt="" v:val="VT4(AC)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="34.0157"/>
+			<v:textRect cx="-3.69696" cy="92.2657" width="18.45" height="14.0036"/>
+			<path d="M25.12 91.51 L28.07 91.51 C28.07 95.17 25.73 97.82 22.51 97.82 C19.44 97.82 16.95 95.33 16.95 92.27 C16.95 90.83
+						 15.78 89.66 14.34 89.66 C12.66 89.66 11.73 90.84 11.73 93 L8.78 93 C8.78 88.36 11.78 86.71 14.34 86.71 C17.41
+						 86.71 19.9 89.2 19.9 92.27 C19.9 93.71 21.07 94.88 22.51 94.88 C24.07 94.88 25.12 93.52 25.12 91.51 Z"
+					class="st1"/>
+			<path d="M18.43 80.47 L18.43 73.84" class="st2"/>
+			<path d="M18.43 110.69 L18.43 104.06" class="st2"/>
+			<path d="M30.22 92.27 A11.7921 11.7921 -180 1 0 6.63 92.27 A11.7921 11.7921 -180 1 0 30.22 92.27" class="st2"/>
+			<text x="-10.16" y="95.27" class="st3" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>AC</text>		</g>
+		<g id="shape91-7" v:mID="91" v:groupContext="shape" v:layerMember="0" transform="translate(453.849,26.7559) rotate(90)">
+			<title>램프.91</title>
+			<desc>조명</desc>
+			<v:custProps>
+				<v:cp v:nameU="Label" v:lbl="Label" v:prompt="" v:type="0" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1042" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="Label" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="0" v:cal="0" v:val="VT4(조명)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="SubType" v:val="VT0(1):5"/>
+				<v:ud v:nameU="Line" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(Represents a lamp.)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="Label" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="SolSH" v:prompt="" v:val="VT4({2EE3C7D2-E26E-4B72-9E9C-5170DDBF261A})"/>
+				<v:ud v:nameU="Label" v:prompt="" v:val="VT4(Lamp1)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="34.0157" v:verticalAlign="0"/>
+			<v:textRect cx="18.4252" cy="61.0808" width="25.52" height="14.0036" transform="rotate(-90)"/>
+			<path d="M8.7 100.43 L8.7 86.03 C8.7 80.43 12.89 76.05 18.24 76.05 C23.64 76.05 27.71 80.34 27.71 86.03 L27.71 100.43
+						 L8.7 100.43 ZM29.93 102.64 L29.92 102.64 L29.92 86.03 C29.92 79.19 24.79 73.84 18.24 73.84 C11.65 73.84
+						 6.49 79.19 6.49 86.03 L6.49 102.64 L29.93 102.64 Z" class="st1"/>
+			<path d="M13 101.27 L13 110.69" class="st2"/>
+			<path d="" class="st2"/>
+			<path d="M23.85 101.27 L23.85 88.53 C23.85 85.4 21.57 82.86 18.44 82.86 C15.31 82.86 13 85.4 13 88.53 L13 101.27"
+					class="st2"/>
+			<path d="M23.85 101.27 L23.85 110.69" class="st2"/>
+			<text x="-71.08" y="21.42" transform="rotate(-90)" class="st3" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>조명</text>		</g>
+		<g id="shape92-14" v:mID="92" v:groupContext="shape" v:layerMember="1" transform="translate(31.3467,-84.5194)">
+			<title>동적 연결선.92</title>
+			<path d="M0 111.28 L0 96.51 L311.81 96.51 L311.81 124.28" class="st4"/>
+		</g>
+		<g id="shape93-17" v:mID="93" v:groupContext="shape" v:layerMember="0" transform="translate(20.0081,-88.1869)">
+			<title>중성 기호.93</title>
+			<v:userDefs>
+				<v:ud v:nameU="Flip1" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Flip2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(중성(도체)을 나타내는 보조 기호입니다.)"/>
+				<v:ud v:nameU="SolSH" v:prompt="" v:val="VT4({2EE3C7D2-E26E-4B72-9E9C-5170DDBF261A})"/>
+			</v:userDefs>
+			<path d="M6.38 102.19 L6.38 107.71 L2.13 102.19 L0 102.19 L0 110.69 L2.13 110.69 L2.13 105.16 L6.38 110.69 L8.5 110.69
+						 L8.5 102.19 L6.38 102.19 Z" class="st1"/>
+		</g>
+		<g id="shape94-20" v:mID="94" v:groupContext="shape" v:layerMember="0" transform="translate(20.0081,-34.3287)">
+			<title>양극.94</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(양극 표시입니다.)"/>
+				<v:ud v:nameU="SolSH" v:prompt="" v:val="VT4({2EE3C7D2-E26E-4B72-9E9C-5170DDBF261A})"/>
+			</v:userDefs>
+			<path d="M0 106.44 L8.5 106.44" class="st5"/>
+			<path d="M4.25 102.19 L4.25 110.69" class="st5"/>
+		</g>
+		<g id="shape95-24" v:mID="95" v:groupContext="shape" v:layerMember="1" transform="translate(145.024,-11.3386)">
+			<title>동적 연결선.95</title>
+			<path d="M0 103.6 L104.3 103.6" class="st6"/>
+		</g>
+		<g id="shape96-27" v:mID="96" v:groupContext="shape" v:layerMember="0" transform="translate(235.441,-13.6456)">
+			<title>단자.96</title>
+			<v:custProps>
+				<v:cp v:nameU="Label" v:lbl="레이블" v:type="0" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1042" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="CH" v:val="VT0(5):26"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(단자입니다. 텍스트를 이동하려면 컨트롤 핸들을 사용하십시오.)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="SolSH" v:prompt="" v:val="VT4({2EE3C7D2-E26E-4B72-9E9C-5170DDBF261A})"/>
+			</v:userDefs>
+			<ellipse cx="18.5173" cy="92.2657" rx="4.45153" ry="4.45521" class="st7"/>
+		</g>
+		<g id="shape98-29" v:mID="98" v:groupContext="shape" v:layerMember="0" transform="translate(263.788,-13.6456)">
+			<title>단자.98</title>
+			<v:custProps>
+				<v:cp v:nameU="Label" v:lbl="레이블" v:type="0" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1042" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="CH" v:val="VT0(5):26"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(단자입니다. 텍스트를 이동하려면 컨트롤 핸들을 사용하십시오.)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="SolSH" v:prompt="" v:val="VT4({2EE3C7D2-E26E-4B72-9E9C-5170DDBF261A})"/>
+			</v:userDefs>
+			<ellipse cx="18.5173" cy="92.2657" rx="4.45153" ry="4.45521" class="st7"/>
+		</g>
+		<g id="shape100-31" v:mID="100" v:groupContext="shape" v:layerMember="1" transform="translate(286.756,-32.0708)">
+			<title>동적 연결선.100</title>
+			<path d="M0 110.69 L56.4 110.69 L56.4 82.67" class="st6"/>
+		</g>
+		<g id="shape101-34" v:mID="101" v:groupContext="shape" v:layerMember="1" transform="translate(120.468,-39.2234)">
+			<title>동적 연결선.101</title>
+			<path d="M0 117.71 L15.47 117.84" class="st6"/>
+		</g>
+		<g id="group102-37" transform="translate(88.0396,-13.7775)" v:mID="102" v:groupContext="group" v:layerMember="0">
+			<v:custProps>
+				<v:cp v:nameU="Label" v:lbl="Label" v:prompt="" v:type="0" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1042" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="Label" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="0" v:cal="0" v:val="VT4(스위치)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visDescription" v:val="VT4(1극 1단자 스위치를 나타냅니다. 마우스 오른쪽 단추를 클릭하여 스위치를 개방하거나 폐쇄할 수 있습니다.)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="Label" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="SolSH" v:prompt="" v:val="VT4({2EE3C7D2-E26E-4B72-9E9C-5170DDBF261A})"/>
+				<v:ud v:nameU="Label" v:prompt="" v:val="VT4(SPST2)"/>
+			</v:userDefs>
+			<title>SPST.102</title>
+			<desc>스위치</desc>
+			<g id="shape103-38" v:mID="103" v:groupContext="shape" v:layerMember="0" transform="translate(8.84409,-18.4694)">
+				<title>시트.103</title>
+				<path d="M19.16 97.94 L0 110.69" class="st2"/>
+			</g>
+			<g id="shape104-41" v:mID="104" v:groupContext="shape" v:layerMember="0" transform="translate(1.12458E-05,-14.0488)">
+				<title>시트.104</title>
+				<path d="M36.85 106.27 A4.42205 4.42205 0 1 1 28.01 106.27 A4.42205 4.42205 0 1 1 36.85 106.27" class="st8"/>
+				<path d="M8.84 106.27 A4.42205 4.42205 0 1 1 -0 106.27 A4.42205 4.42205 0 1 1 8.84 106.27" class="st8"/>
+			</g>
+			<g id="shape102-45" v:mID="102" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="34.0157"/>
+				<v:textRect cx="18.4252" cy="104.795" width="35.52" height="14.0036"/>
+				<text x="3.43" y="107.8" class="st3" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>스위치</text>			</g>
+		</g>
+		<g id="shape105-47" v:mID="105" v:groupContext="shape" v:layerMember="1" transform="translate(145.024,-39.4212)">
+			<title>동적 연결선.105</title>
+			<path d="M0 103.6 L104.3 103.6" class="st6"/>
+		</g>
+		<g id="shape106-50" v:mID="106" v:groupContext="shape" v:layerMember="1" transform="translate(31.3467,-47.0846)">
+			<title>동적 연결선.106</title>
+			<path d="M0 110.69 L0 125.57 L61.11 125.57" class="st6"/>
+		</g>
+		<g id="shape109-53" v:mID="109" v:groupContext="shape" v:layerMember="0" transform="translate(122.055,-13.6456)">
+			<title>단자.109</title>
+			<v:custProps>
+				<v:cp v:nameU="Label" v:lbl="레이블" v:type="0" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1042" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="CH" v:val="VT0(5):26"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(단자입니다. 텍스트를 이동하려면 컨트롤 핸들을 사용하십시오.)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="SolSH" v:prompt="" v:val="VT4({2EE3C7D2-E26E-4B72-9E9C-5170DDBF261A})"/>
+			</v:userDefs>
+			<ellipse cx="18.5173" cy="92.2657" rx="4.45153" ry="4.45521" class="st7"/>
+		</g>
+		<g id="shape112-55" v:mID="112" v:groupContext="shape" v:layerMember="1" transform="translate(246.872,-42.0526)">
+			<title>동적 연결선.112</title>
+			<path d="M7.09 110.69 L7.09 129.86" class="st6"/>
+		</g>
+		<g id="shape113-58" v:mID="113" v:groupContext="shape" v:layerMember="1" transform="translate(133.486,-42.0526)">
+			<title>동적 연결선.113</title>
+			<path d="M7.09 110.69 L7.09 129.86" class="st6"/>
+		</g>
+		<g id="shape114-61" v:mID="114" v:groupContext="shape" v:layerMember="1" transform="translate(258.41,-24.9842)">
+			<title>동적 연결선.114</title>
+			<path d="M0 103.6 L19.26 103.6" class="st6"/>
+		</g>
+		<g id="group115-64" transform="translate(122.055,-28.0826)" v:mID="115" v:groupContext="group">
+			<title>시트.115</title>
+			<g id="shape107-65" v:mID="107" v:groupContext="shape" v:layerMember="0" transform="translate(113.386,0)">
+				<title>단자.107</title>
+				<v:custProps>
+					<v:cp v:nameU="Label" v:lbl="레이블" v:type="0" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+							v:langID="1042" v:val="VT4()"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="CH" v:val="VT0(5):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(단자입니다. 텍스트를 이동하려면 컨트롤 핸들을 사용하십시오.)"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+					<v:ud v:nameU="SolSH" v:prompt="" v:val="VT4({2EE3C7D2-E26E-4B72-9E9C-5170DDBF261A})"/>
+				</v:userDefs>
+				<ellipse cx="18.5173" cy="92.2657" rx="4.45153" ry="4.45521" class="st7"/>
+			</g>
+			<g id="shape110-67" v:mID="110" v:groupContext="shape" v:layerMember="0">
+				<title>단자.110</title>
+				<v:custProps>
+					<v:cp v:nameU="Label" v:lbl="레이블" v:type="0" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+							v:langID="1042" v:val="VT4()"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="CH" v:val="VT0(5):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(단자입니다. 텍스트를 이동하려면 컨트롤 핸들을 사용하십시오.)"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+					<v:ud v:nameU="SolSH" v:prompt="" v:val="VT4({2EE3C7D2-E26E-4B72-9E9C-5170DDBF261A})"/>
+				</v:userDefs>
+				<ellipse cx="18.5173" cy="92.2657" rx="4.45153" ry="4.45521" class="st7"/>
+			</g>
+		</g>
+		<g id="group116-69" transform="translate(122.055,0)" v:mID="116" v:groupContext="group">
+			<title>시트.116</title>
+			<g id="shape108-70" v:mID="108" v:groupContext="shape" v:layerMember="0" transform="translate(113.386,0)">
+				<title>단자.108</title>
+				<v:custProps>
+					<v:cp v:nameU="Label" v:lbl="레이블" v:type="0" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+							v:langID="1042" v:val="VT4()"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="CH" v:val="VT0(5):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(단자입니다. 텍스트를 이동하려면 컨트롤 핸들을 사용하십시오.)"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+					<v:ud v:nameU="SolSH" v:prompt="" v:val="VT4({2EE3C7D2-E26E-4B72-9E9C-5170DDBF261A})"/>
+				</v:userDefs>
+				<ellipse cx="18.5173" cy="92.2657" rx="4.45153" ry="4.45521" class="st7"/>
+			</g>
+			<g id="shape111-72" v:mID="111" v:groupContext="shape" v:layerMember="0">
+				<title>단자.111</title>
+				<v:custProps>
+					<v:cp v:nameU="Label" v:lbl="레이블" v:type="0" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+							v:langID="1042" v:val="VT4()"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="CH" v:val="VT0(5):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(단자입니다. 텍스트를 이동하려면 컨트롤 핸들을 사용하십시오.)"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+					<v:ud v:nameU="SolSH" v:prompt="" v:val="VT4({2EE3C7D2-E26E-4B72-9E9C-5170DDBF261A})"/>
+				</v:userDefs>
+				<ellipse cx="18.5173" cy="92.2657" rx="4.45153" ry="4.45521" class="st7"/>
+			</g>
+		</g>
+	</g>
+</svg>
