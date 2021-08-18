@@ -11,7 +11,7 @@ Windows Subsystem for Linux(WSL)은 윈도우에서 리눅스 쉘을 실행하�
 
 윈도우 CMD 창을 열어서 다음과 같은 명령어로 현재 시스템에 설치된 배포의 리스트를 확인할 수 있습니다.
 
-```cmd
+```powershell
 wsl --list --all
 ```
 
@@ -19,7 +19,7 @@ wsl --list --all
 
 CMD 창에서 다음 명령어를 사용하여 리스트에서 확인한 배포를 원하는 경로에 tar 파일로 저장할 수 있습니다.
 
-```cmd
+```powershell
 wsl --export {DistroName} {FilePath.tar}
 ```
 
@@ -27,7 +27,7 @@ wsl --export {DistroName} {FilePath.tar}
 
 CMD 창에서 다음 명령어를 사용하여 tar 파일로 저장된 이미지로부터 배포를 설치할 수 있습니다.
 
-```cmd
+```powershell
 wsl --import {DistroName} {FilePath.tar}
 ```
 
@@ -35,7 +35,7 @@ wsl --import {DistroName} {FilePath.tar}
 
 CMD 창에서 다음 명령어를 사용하여 설치된 배포를 삭제할 수 있습니다.
 
-```cmd
+```powershell
 wsl --unregister {DistroName}
 ```
 
