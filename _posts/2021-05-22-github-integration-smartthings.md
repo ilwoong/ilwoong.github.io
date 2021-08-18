@@ -26,7 +26,7 @@ author: ilwoong
 
 2021년 5월 22일 현재 다원 IoT 가스락은 아직 SmartThings에서 자동으로 인식하지 않고 있습니다. SmartThings 허브에 연결할 때 Thing으로 등록한 다음 DTH를 변경할 수도 있지만, 먼저 DTH를 등록해놓고 연결하면 자동으로 인식하게 할 수 있습니다.
 
-SmartThings에서 사용하기 위하여 위 단계의 5번에서 다음 DTH 를 검색하여 체크합니다. 
+SmartThings에서 사용하기 위하여 위 단계의 5번에서 다음 DTH 를 검색하여 체크합니다.
 
 ```
 devicetypes/smartthings/zigbee-valve.src/zigbee-valve.groovy
@@ -41,5 +41,5 @@ fingerprint profileId: "0104", inClusters: "0000, 0001, 0003, 0004, 0005, 0006",
 Save 버튼을 눌러 저장하고, Publish > For Me 버튼을 눌러서 발행하면 다원 가스락의 DTH 설치가 완료됩니다.  이제 가스락을 SmartThings 허브에 연결하면 됩니다.
 
 ### 참고자료
-- <https://yourjune.tistory.com/1043>
-- <https://blog.naver.com/fromzip/222265871770>
+- <https://yourjune.tistory.com/1043>{:target="_blank"}
+- <https://blog.naver.com/fromzip/222265871770>{:target="_blank"}

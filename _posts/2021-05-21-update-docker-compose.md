@@ -16,7 +16,7 @@ $ docker-compose pull
 ### 컨테이너 생성
 
 ```bash
-$ docker-compose -up --force-recreate --build -d
+$ docker-compose up --force-recreate --build -d
 ```
 
 ### 필요없는 이미지 제거
