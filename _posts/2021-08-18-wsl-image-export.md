@@ -28,7 +28,7 @@ wsl --export {DistroName} {FilePath.tar}
 CMD 창에서 다음 명령어를 사용하여 tar 파일로 저장된 이미지로부터 배포를 설치할 수 있습니다.
 
 ```powershell
-wsl --import {DistroName} {FilePath.tar}
+wsl --import {DistroName} {DestinationFolderPath} {FilePath.tar}
 ```
 
 ### 이미지 삭제하기
