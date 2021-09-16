@@ -1,7 +1,5 @@
 @startuml
-skinparam NodeBackgroundColor red
-skinparam classFontSize 10
-skinparam ArrowFontName Roboto
+
 nwdiag {
     network wan {
         router [address = "domain.duckdns.org", description = "라우터"]
