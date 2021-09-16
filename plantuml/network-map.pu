@@ -1,0 +1,37 @@
+@startuml
+skinparam NodeBackgroundColor red
+skinparam classFontSize 10
+skinparam ArrowFontName Roboto
+nwdiag {
+    network wan {
+        router [address = "domain.duckdns.org", description = "라우터"]
+    }
+
+    network local {
+        address = "192.168.1.x/24"
+        router [address = "192.168.1.1/24"];
+        st_hub [description = "스마트싱스 허브"];
+        ha_server [description = "홈 어시스턴트 서버"];
+        door_lock [description = "도어락"];
+        GA_speakers [description = "구글 어시스턴트 스피커"];
+        wifi_plugs [description = "스마트 플러그(WiFi)"];
+    }
+
+    network zwave {
+        width=full
+        ha_server;
+        zwave_plugs [description = "스마트 플러그(ZW)"];
+    }
+
+    network zigbee {
+        width=full
+        st_hub;
+
+        zb_plugs [description = "스마트 플러그(ZB)"];
+        switches [description = "스마트 스위치"];
+        gas_valve [description = "가스락"];
+        motion_sensor [description = "동작감지 센서"];
+        zb_button [description = "단축 버튼"];
+    }
+}
+@enduml
