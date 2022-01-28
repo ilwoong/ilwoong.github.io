@@ -1,6 +1,6 @@
 ---
 layout: post
-title: genie wsl을 사용하여 docker 구동하기
+title: genie를 사용하여 wsl에서 docker 구동하기
 tags: [wsl, genie, docker]
 author: ilwoong
 ---
