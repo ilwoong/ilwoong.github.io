@@ -2,6 +2,7 @@
 layout: post
 title: Ubuntu 20.04 LTS 서버 고정 IP 설정하기
 tags: [ubuntu, ip]
+author: ilwoong
 excerpt_separator: <!--more-->
 ---
 
