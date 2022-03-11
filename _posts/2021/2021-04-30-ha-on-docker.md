@@ -16,13 +16,20 @@ author: ilwoong
 Raspberry Pi OS에 바로 Home Assistant를 설치할 수도 있겠지만, 추후 업그레이드나, 깔끔하게 삭제해야 할 필요가 있을 때를 대비하여 도커 컨테이너로 설치합니다. 우선 도커를 다음과 같이 설치합니다.
 
 ```bash
-$ sudo apt install docker.io docker-compose
+sudo apt install docker.io docker-compose
 ```
 
 WSL에서 설치할때와 마찬가지로 실행할 때마다 권한 문제가 생기는 것이 귀찮기 때문에 현재 user를 docker 그룹에 넣어줍니다.
 
 ```bash
-$ sudo usermod -aG docker pi
+sudo usermod -aG docker pi
+```
+
+서비스를 실행시키고 로그아웃을 한번 했다가 다시 로그인하면 docker를 사용할 수 있습니다.
+
+```bash
+sudo service docker start
+logout
 ```
 
 ### Home Assistant 설치하기
