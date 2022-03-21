@@ -45,7 +45,7 @@ sudo nano /data/nginx/nginx.conf
 
 아래처럼 내용을 작성합니다.
 
-```conf
+```nginx
 user nginx;
 worker_process auto;
 
@@ -82,7 +82,7 @@ http {
 
 nginx에서 기본적으로 로드하는 파일은 /etc/nginx/conf.d/default.conf 파일입니다. 이 파일은 기본으로 생성되며, 다음과 같은 내용을 담고 있습니다. 이 파일의 설정에 의해 80포트를 사용하게 되므로, 이 파일을 덮어써야 합니다.
 
-```conf
+```nginx
 server {
     listen       80;
     listen  [::]:80;
@@ -144,7 +144,7 @@ python3 -m http.server {port}
 
 필요없는 주석을 제거하고 reverse proxy 부분을 추가하면 다음과 같습니다. 
 
-```conf
+```nginx
 server {
     listen       80;
     listen  [::]:80;
