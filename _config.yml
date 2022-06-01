@@ -16,6 +16,7 @@ footer_text: >
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
+show_drafts: true
 post_navigation: true
 color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
 
@@ -29,7 +30,7 @@ cookie_consent: false                                   # To respect the usage o
 disqus_shortname:                                       # Your discus shortname for comments
 
 # PAGINATION
-paginate: 5
+paginate: 10
 paginate_path: "/blog/page:num"
 
 # PORTFOLIO
