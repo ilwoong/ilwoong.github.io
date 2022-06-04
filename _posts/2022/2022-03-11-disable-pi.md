@@ -6,7 +6,9 @@ author: ilwoong
 excerpt_separator: <!--more-->
 ---
 
-라즈베리파이 OS를 설치하면, 기본 계정이 pi/raspberry로 설정되어 있어, 2021년 발표된 [OWASP TOP 10의 5번째 항목](https://owasp.org/Top10/A05_2021-Security_Misconfiguration/)에 해당하는 기본 계정/패스워드를 그대로 사용하는 취약점이 존재합니다. 이 취약점을 없애기 위해 기본 계정을 아래와 같이 변결할 수 있습니다.
+라즈베리파이 OS를 설치하면, 기본 계정이 pi/raspberry로 설정되어 있어, 2021년 발표된 [OWASP TOP 10의 5번째 항목](https://owasp.org/Top10/A05_2021-Security_Misconfiguration/)에 해당하는 기본 계정/패스워드를 그대로 사용하는 취약점이 존재합니다. 이 취약점을 없애기 위해 기본 계정을 아래와 같이 변결할 수 있습니다. **최신 버전의 Raspberry Pi OS는 설치 시에 계정 이름 및 패스워드를 입력하게 변경되었습니다.**
+
+<!--more-->
 
 ### 1. 임시 계정 생성
 
