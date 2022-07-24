@@ -1,0 +1,16 @@
+@startuml
+
+participant Publisher as P
+participant Broker as B
+participant Subscriber1 as S
+participant Subscriber2 as S2
+
+B <-- S: subcribe(topic)
+P -> B: publish(topic, data)
+B -> S: message(data)
+B <-- S2: subcribe(topic)
+P -> B: publish(topic, data)
+B -> S: message(data)
+B -> S2: message(data)
+
+@enduml
