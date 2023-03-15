@@ -79,7 +79,7 @@ services:
     privileged: true
     environment:
       - TZ=Asia/Seoul
-      
+
   mosquitto:
     container_name: mqtt
     image: eclipse-mosquitto
@@ -88,7 +88,7 @@ services:
       - /data/mosquitto/data:/mosquitto/data
       - /data/mosquitto/log:/mosquitto/log
     restart: always
-    network_mode: host    
+    network_mode: host
 
   zwavejs2mqtt:
     container_name: zwavejs2mqtt
@@ -170,6 +170,14 @@ DDNS를 사용하기 위해 [duckdns.org](https://duckdns.org)에서 도메인�
 map $http_upgrade $connection_upgrade {
     default upgrade;
     ''      close;
+}
+
+server {
+    listen 80;
+    server_name {domain-name}.duckdns.org;
+    location / {
+        return 301 https://{domain-name}.duckdns.org;
+    }
 }
 
 server {

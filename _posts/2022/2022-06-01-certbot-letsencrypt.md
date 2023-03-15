@@ -45,7 +45,7 @@ docker-compose stop nginx
 기존에 설치된 인증서를 삭제하려면 다음 명령어를 실행합니다.
 
 ```terminal
-sudo certbot delete 
+sudo certbot delete
 ```
 
 인증서를 발급받습니다.
@@ -90,7 +90,7 @@ Ask for help or search for solutions at https://community.letsencrypt.org. See t
 웹서버를 중단시킵니다.
 
 ```terminal
-docker-compose nginx stop
+docker-compose stop nginx
 ```
 
 다시 시뮬레이션을 해 보면 시뮬레이션이 성공하는 것을 확인할 수 있습니다.
@@ -105,7 +105,7 @@ Processing /etc/letsencrypt/renewal/ilwoong.duckdns.org.conf
 Simulating renewal of an existing certificate for ilwoong.duckdns.org
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Congratulations, all simulated renewals succeeded: 
+Congratulations, all simulated renewals succeeded:
   /etc/letsencrypt/live/ilwoong.duckdns.org/fullchain.pem (success)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ```
@@ -122,7 +122,7 @@ Processing /etc/letsencrypt/renewal/ilwoong.duckdns.org.conf
 Renewing an existing certificate for ilwoong.duckdns.org
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Congratulations, all renewals succeeded: 
+Congratulations, all renewals succeeded:
   /etc/letsencrypt/live/ilwoong.duckdns.org/fullchain.pem (success)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ```
